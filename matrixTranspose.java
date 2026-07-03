@@ -11,7 +11,7 @@ public class matrixTranspose {
         System.out.println("Enter elements of matrix:");
         for(int i=0;i<rows;i++){
             for(int j=0;j<columns;j++){
-                matrix[i][j] = sc.nextInt();
+                matrix[i][j] = sc.nextInt();                       // Transpose of a Matrix
             }
         }
         System.out.println("Transpose of the matrix is :::");
