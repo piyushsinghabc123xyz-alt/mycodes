@@ -1,7 +1,7 @@
 package Mycodes;
 import java.util.*;
 public class HollowRhombus{
-    public static void main(String[] args) {
+    public static void main(String[] args) {                     //Code to print a hollow rhombus using "*"
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
