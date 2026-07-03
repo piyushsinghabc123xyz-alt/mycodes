@@ -10,7 +10,7 @@ public class voteeligibility{
         }
         else{
             System.out.println("Invalid age!!!");
-            return false;
+            return false;                                   // Function for checking the eligiblity of a person to vote
         }
     }
     public static void main(String[]args){
