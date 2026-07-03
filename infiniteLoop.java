@@ -1,7 +1,7 @@
 package Mycodes;
 public class infiniteLoop {
     public static void main(String[]args){
-        int i=1;
+        int i=1;                                    // INFINITE LOOP
         do{
             System.out.println("NIGGA");
         }while(i==1);
