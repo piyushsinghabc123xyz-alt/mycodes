@@ -1,7 +1,7 @@
 package Mycodes;
 import java.util.*;
 
-public class average {
+public class average {                                       // Function for average of three integers
     public static double calcAverage(int a,int b,int c){
         return (a+b+c)/3;
     }
