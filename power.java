@@ -3,7 +3,7 @@ import java.util.*;
 public class power{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the base no:");
+        System.out.println("Enter the base no:");           // code to find the power of a number
         int base = sc.nextInt();
         System.out.println("Enter the power no:");
         int power = sc.nextInt();
