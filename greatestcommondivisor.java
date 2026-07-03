@@ -3,7 +3,7 @@ import java.util.*;
 public class greatestcommondivisor{
     public static int gcd(int a, int b){
         int i;
-        
+                                                         // Greatest common divisor of two numbers
         if(a<b){
             i=a;
         }else{
