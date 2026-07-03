@@ -11,7 +11,7 @@ public class matrix {
         System.out.println("Enter no of columns");
         int cols = sc.nextInt();
 
-        int[][] matrix = new int[rows][cols];
+        int[][] matrix = new int[rows][cols];               // Creating 2D Array (Matrix)
 
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
