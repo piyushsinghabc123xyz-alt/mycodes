@@ -9,7 +9,7 @@ public class minmaxsearcharray {
         int size = sc.nextInt();
         int numbers[]= new int[size];
 
-        System.out.println("Enter elements of array one by one :");
+        System.out.println("Enter elements of array one by one :");       // Identifying the min and max no of an array
         
         for(int i=0;i<numbers.length;i++){
             numbers [i] = sc.nextInt();
