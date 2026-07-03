@@ -15,14 +15,14 @@ public class matrixspiralorder{
                 matrix[i][j] = sc.nextInt();
             }
         }
-        System.out.println("The Matrix is :::");
+        System.out.println("The Matrix is :::");                  // SPIRAL ORDER of matrix
         for(int i=0;i<rows;i++){
             for(int j=0;j<columns;j++){
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
-        System.out.println("The spiral order matrix is:");
+        System.out.println("The spiral order of matrix is:");
         int rowstart = 0;
         int rowend = rows-1;
         int colstart = 0;
