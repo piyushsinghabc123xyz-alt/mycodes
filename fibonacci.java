@@ -3,7 +3,7 @@ import java.util.*;
 public class fibonacci {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();                             // Fibonacci series upto n terms (n is taken input by the user)
         int a = 0,b = 1;
         System.out.print(a+" ");
         if(n>1){
