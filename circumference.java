@@ -3,7 +3,7 @@ import java.util.*;
 
 public class circumference {
     public static double circumferenceCircle(double r){
-        return 2*3.14*r;
+        return 2*3.14*r;                                     // Function for circumference of a Circle
     }
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
