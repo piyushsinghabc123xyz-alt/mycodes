@@ -2,7 +2,7 @@ package Mycodes;
 import java.util.*;
 public class sum {
     public static int sum(int a,int b){
-        int sum = a+b;
+        int sum = a+b;                              // Function for sum of two nos
         return sum;
     }
     public static void main(String[] args){
