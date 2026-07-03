@@ -4,7 +4,7 @@ public class posnegzeroes {
     public static void main(String[]args){
         int positive=0,negative=0,zeroes=0;
         Scanner sc =new Scanner(System.in);
-        System.out.println("Enter 1 to take input or 0 to stop");
+        System.out.println("Enter 1 to take input or 0 to stop");       // Code to take input till user want and return how many inputs were +ve,-ve and 0
         int input = sc.nextInt();
         while(input==1){
             System.out.println("Enter your no:");
