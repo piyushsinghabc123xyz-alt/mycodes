@@ -3,7 +3,7 @@ public class sbCharReplace {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         String st = sc.nextLine();
-        StringBuilder str = new StringBuilder(st);
+        StringBuilder str = new StringBuilder(st);            // character replace e to i using string builder
 
         for(int i=0;i<str.length();i++){
             if(str.charAt(i) == 'e'){
