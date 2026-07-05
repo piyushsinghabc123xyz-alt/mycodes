@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 
 public class average {                                       // Function for average of three integers

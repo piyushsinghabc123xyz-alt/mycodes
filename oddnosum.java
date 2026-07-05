@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 public class oddnosum {
     public static int calcOddSum(int n){

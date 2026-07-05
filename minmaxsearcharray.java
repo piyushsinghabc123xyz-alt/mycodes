@@ -1,4 +1,4 @@
-package Mycodes;
+
 import java.util.*;
 
 public class minmaxsearcharray {

@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 public class voteeligibility{
     public static boolean isEligible(int age){

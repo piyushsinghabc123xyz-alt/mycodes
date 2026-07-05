@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 
 public class GreaterNo {

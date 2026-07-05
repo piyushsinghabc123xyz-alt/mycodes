@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 public class factorial {
     public static void printFactorial(int n){

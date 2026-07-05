@@ -1,4 +1,3 @@
-package Mycodes;
 import java.util.*;
 public class HollowRhombus{
     public static void main(String[] args) {                     //Code to print a hollow rhombus using "*"
