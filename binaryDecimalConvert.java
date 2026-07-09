@@ -9,17 +9,8 @@ public class binaryDecimalConvert {
         int p = sc.nextInt();
         String str = "";
         if(p==1){
-            int logvalue = (int)(Math.log(n)/Math.log(2));
-            for(int i=0;i<=logvalue;i++){
-                int bitMask = 1<<i;
-                if((bitMask & n) !=0){
-                    str = "1"+str;
-                }
-                else{
-                    str = "0"+str;
-                }
-            }
-            System.out.println("binary no is :"+str);
+            String binary = Integer.toBinaryString(n);
+            System.out.println("Binary no is : "+ binary);
         }else{
             String st = Integer.toString(n);
             int decimal = Integer.parseInt(st,2);
