@@ -5,7 +5,7 @@ public class ArrayAssending {
         Scanner sc = new Scanner(System.in);
         
         int size = sc.nextInt();
-        int nos[] = new int[size];        //Arranging elements of an array in ascending order
+        int nos[] = new int[size];        //Checking if elements of an array are in ascending order or not
 
         for(int i=0;i<nos.length;i++){
             nos[i] = sc.nextInt();
