@@ -7,7 +7,7 @@ public class factorialRecursion {
         int fact_n = fact_nm1*n;
         return fact_n;
     }
-    public static void main(String[]main){
+    public static void main(String[]args){
         int n = 5;
         int factorial = printFactorial(n);
         System.out.println(factorial);
